@@ -1,0 +1,319 @@
+.page1bd {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    color: white;
+}
+
+.page1bd .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.page1bd p:not(.p) {
+    width: 760px;
+}
+
+.page1bd .container .text1bd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1bd .container .text1bd {
+    text-align: center;
+}
+
+.page1bd .container .text1bd h5 {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.page1bd .container .text1bd h5 span {
+    font-size: 13px;
+    color: gray;
+}
+
+.page1bd .container .text1bd h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    width: 700px;
+}
+
+.page1bd .container .text11bd {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page1bd .container .text11bd a {
+
+        
+        color: white;
+        padding: 10px 30px;
+     
+      
+    border-radius: 10px;
+        position: relative;
+    
+        transition: .5s;
+    
+        background-image: linear-gradient(to right , rgba(255, 34, 34, 0.427), rgba(255, 37, 37, 0.73), rgba(255, 40, 40, 0.427));
+    
+        background-size: 400%;
+        animation: bg linear infinite 10s ;
+        transition: .5s;
+    }
+    .header a:hover{
+       
+     
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.913) inset,0 0 40px rgba(255, 0, 0, 0.913) ,  0 0 40px rgba(0, 0, 0, 0.648) inset, 0 0 40px rgba(255, 0, 0, 0.913)inset ;
+    
+    }
+
+.page1bd .container .imgbdtext {
+    text-align: start;
+}
+
+.page1bd .boxbd {
+    margin-top: 50px;
+}
+
+.page1bd .boxbd .textbox {
+    margin-bottom: 20px;
+}
+
+.page1bd .boxbd .imgbd {
+    margin-bottom: 20px;
+}
+
+.page1bd .boxbd .boxfinish {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.page1bd .boxbd .boxfinish a {
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    background-color: gray;
+}
+
+@media (max-width: 992px) {
+    .page1bd .container .text1bd img {
+        width: 100%;
+    }
+
+    .page1bd {
+        width: 100%;
+    }
+
+    .page1bd .container .imgbdtext {
+        width: 100%;
+    }
+
+    .page1bd .container .text1bd h1 {
+        width: 90%;
+        margin: auto;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .page1bd p:not(.p) {
+        width: 100%;
+    }
+
+    .page1bd .container .imgbd img {
+        width: 100%;
+    }
+
+    .page1bd .container .text11bd a {
+        padding: 5px 30px;
+        text-align: center;
+    }
+
+    .page1bd {
+        padding-top: 50px;
+    }
+
+    .page2bd .container {
+        width: 90%;
+    }
+
+    .page2bd .boxlast form input {
+        width: 100%;
+    }
+
+    .page2bd .boxs {
+        width: 100%;
+    }
+
+    .page2bd .boxlast {
+        width: 100%;
+    }
+
+    .page2bd .boxlast .form1 {
+        width: 100%;
+    }
+
+    .page2bd .boxlast .form1 input {
+        width: 200px;
+    }
+}
+
+
+
+
+
+.page2bd {
+    color: white;
+    padding-bottom: 100px;
+}
+
+hr {
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.page2bd .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.page2bd .boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.page2bd .boxs .box {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+
+}
+
+.page2bd .boxs .box .imgco {
+    margin-right: 30px;
+}
+
+.page2bd .boxs .box .textco h3:first-child {
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.page2bd .boxs .box .textco h3 {
+
+    margin-bottom: 10px;
+}
+
+.page2bd .boxs .box .textco p {
+    margin-bottom: 10px;
+}
+
+.page2bd .boxs .box .linkco {
+    display: flex;
+    gap: 10px;
+}
+
+.page2bd .boxs .box .linkco a {
+    padding: 10px 20px;
+    color: white;
+    background-color: gray;
+}
+
+.page2bd .boxlast {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page2bd .boxlast h2 {
+    margin-bottom: 30px;
+}
+
+.page2bd .boxlast .form {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.page2bd .boxlast .form input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 50px;
+
+    padding-left: 20px;
+}
+
+.page2bd .boxlast .form1 {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page2bd .boxlast .form1 input {
+    width: 620px;
+    padding-left: 20px;
+    height: 150px;
+    text-align: start;
+}
+
+.page2bd .boxlast a {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+.page1bd .boxbd .imgbd img{
+    scale: .8;
+    opacity: 0;
+animation: fade-in linear forwards;
+animation-timeline: view();
+animation-range:250px 500px;
+}
+@keyframes fade-in {
+   
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+    
+}
+}

@@ -1,0 +1,60 @@
+.page1watch .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1watch .video1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.page1watch .video1 video {
+    width: 100%;
+    color: white;
+
+}
+
+.page2watch .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.page2watch .boxs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.page2watch .box {
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width:767px) {
+    .page2watch .boxs {
+
+        gap: 5px;
+
+    }
+
+    .page2watch .box {
+
+        padding: 10px 10px;
+    }
+}
+
+.page2watch .box:hover {
+    background-color: rgb(179, 179, 179);
+
+
+}
+
+.page2watch .box span {
+    color: white;
+}

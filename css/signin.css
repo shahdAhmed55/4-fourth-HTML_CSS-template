@@ -1,0 +1,199 @@
+.page1sign {
+    padding: 100px 0;
+}
+
+.page1sign .container {
+    display: flex;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.page1sign .leftlog {
+    position: relative;
+    display: flex;
+    align-items: start;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 150px;
+
+}
+
+.page1sign .leftlog::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(50%);
+    bottom: -20px;
+    width: 2px;
+    height: 90%;
+    background-color: gray;
+}
+
+
+.page1sign .leftlog .logright h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
+
+@media (max-width: 992px) {
+    span {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 25px;
+        width: 100%;
+    }
+}
+
+span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.page1sign .leftlog .logright a {
+    padding: 10px 30px;
+    background-color: rgb(213, 36, 36);
+    color: white;
+}
+
+@media (max-width:992px) {
+    .page1sign .leftlog::after {
+        display: none;
+    }
+
+    .page1sign .leftlog {
+        width: 100%;
+        text-align: center;
+    }
+
+    .page1sign .leftlog {
+        text-align: center;
+    }
+
+    .page1sign .leftlog .textsign {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .page1sign .leftlog .logup::after {
+        display: none;
+    }
+
+    .page1sign .leftlog {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .page1sign .leftlog form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .page1sign .leftlog form {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.page1sign .leftlog h1,
+.page1sign .rightsign h1 {
+    margin-bottom: 20px;
+}
+
+.page1sign .leftlog form {
+    margin-bottom: 20px;
+}
+
+.page1sign .leftlog form input {
+    display: block;
+    width: 290px;
+    height: 50px;
+    padding-left: 20px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.page1sign .leftlog form input:focus {
+    outline: none;
+}
+
+.page1sign .leftlog .logup .textsign>a {
+    padding: 10px 15px;
+   
+    color: white;
+    margin-right: 20px;
+
+
+
+
+
+
+
+ 
+    
+        transition: .5s;
+    
+        background-image: linear-gradient(to right , rgba(255, 34, 34, 0.427), rgba(255, 37, 37, 0.73), rgba(255, 40, 40, 0.427));
+    
+        background-size: 400%;
+        animation: bg linear infinite 10s ;
+        transition: .5s;
+    }
+    .header a:hover{
+       
+     
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.913) inset,0 0 40px rgba(255, 0, 0, 0.913) ,  0 0 40px rgba(0, 0, 0, 0.648) inset, 0 0 40px rgba(255, 0, 0, 0.913)inset ;
+    
+    }
+
+
+
+
+
+
+
+
+
+.page1sign .leftlog .textsign {
+    display: flex;
+
+    align-items: center;
+}
+
+.page1sign .leftlog .textsign h5 {
+    margin-right: 10px;
+}
+
+.page1sign .leftlog .textsign a {
+    color: red;
+}
+
+.page1sign .rightsign .box {
+    padding: 10px 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.page1sign .rightsign .box1 {
+    background-color: rgb(0, 0, 209);
+}
+
+.page1sign .rightsign .box2 {
+    background-color: rgb(201, 0, 0);
+
+}
+
+.page1sign .rightsign .box3 {
+
+    background-color: white;
+    color: black;
+}

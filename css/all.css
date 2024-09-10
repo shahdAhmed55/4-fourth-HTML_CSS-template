@@ -1,0 +1,271 @@
+
+html, body{
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+
+}
+body::before{
+    position: absolute;
+    top:0 ;
+    left: -3px;
+    width: 4px;
+    height: 100%;
+    content: "";
+    z-index: 1000000000000000;
+    background-color: rgba(255, 0, 0, 0.462);
+    box-shadow: 0 0  30px red  , 0 0  20px rgba(255, 0, 0, 0.679) , 0 0  30px rgba(255, 0, 0, 0.528) ;
+
+}
+body::after{
+    position: absolute;
+    top:0 ;
+    right: 0px;
+    width: 3px;
+    background-color: rgba(255, 0, 0, 0.462);
+    height: 100%;
+    content: "";
+    z-index: 1000000000000000;
+    box-shadow: 0 0  30px red  , 0 0  30px red , 0 0  40px red ;
+
+}
+
+@media (max-width:767px) {
+    body::after{
+        display: none;
+    }
+
+    body::before{
+        display: none;
+    }
+}
+.pageintro {
+    background-image: url("../img/normal-breadcrumb.jpg");
+    background-position: center;
+}
+
+.pageintro .container {
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageintro .container .textintro {
+    color: white;
+    text-align: center;
+}
+
+.pageintro .container .textintro h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+
+}
+
+.pageintro .container .textintro p {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 100px 0;
+    background-color: rgb(0, 0, 0);
+  box-shadow: 0 0  30px red , 0 0  10px red ;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+
+}
+
+footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    footer .logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    margin-left: 15px;
+    color: white;
+}
+
+footer .ul li a {
+    background-color: transparent;
+    color: white;
+}
+
+footer .contact {
+
+    color: white;
+}
+
+
+
+
+
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.right .boxs {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+}
+
+.right .boxs .address ul {
+    display: flex;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+
+.right .boxs .address ul li {
+    margin-left: 5px;
+    position: relative;
+}
+
+.right .boxs .address ul li a {
+    padding: 5px 5px;
+    color: white;
+    margin-right: 0;
+    font-size: smaller;
+}
+
+.right .imgs {
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.right .imgs::after {
+    content: "The Seven Deadly Sins: Wrath of the Gods";
+    position: absolute;
+    margin-bottom: 15px;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    text-align: center;
+
+}
+
+.right .imgs img{
+    border-radius: 10px;
+    max-width: 360px;
+    scale: .7;
+    opacity: 0;
+animation: fade-in linear forwards;
+animation-timeline: view();
+animation-range:250px 500px;
+}
+
+.right .boxs2 .photo .textphoto {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.right .boxs2 .photo .textphoto .links {
+    margin-bottom: 10px;
+}
+
+.right .boxs2 .photo .textphoto .links a {
+    color: white;
+    padding: 1px 5px;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+
+.right .boxs2 .photo .textphoto p {
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+
+.right .boxs2 .photo .textphoto h6 {
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 15px;
+
+}
+
+.right .boxs2 {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+
+}
+
+.right .boxs2 .photo .photo1 {
+    margin-bottom: 15px;
+
+}
+
+.right .boxs2 .photo {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+@media (max-width: 760px) {
+    .right .imgs {
+        width: 100%;
+    }
+
+    .right .boxs {
+        width: 100%;
+    }
+
+    .right .boxs2 {
+        width: 100%;
+    }
+
+    .right .boxs .address {
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .right .imgs img {
+        width: 100%;
+    }
+
+    .page1 .left .address a {
+        display: none;
+    }
+
+}
+

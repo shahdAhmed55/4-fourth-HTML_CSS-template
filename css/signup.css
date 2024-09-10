@@ -1,0 +1,164 @@
+.page1sign {
+    padding: 100px 0;
+}
+
+.page1sign .container {
+    display: flex;
+    color: white;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page1sign .leftsign {
+    position: relative;
+
+
+}
+
+.page1sign .leftsign::after {
+    position: absolute;
+    content: "";
+    right: -14%;
+    transform: translateX(50%);
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+}
+
+@media (max-width:767px) {
+    .page1sign .leftsign::after {
+        display: none;
+    }
+
+    .page1sign .leftsign::before {
+        width: 80%;
+        content: "";
+        position: absolute;
+        height: 2px;
+
+        background-color: gray;
+        bottom: -15%;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .page1sign .container {
+        flex-wrap: wrap;
+
+    }
+
+    .page1sign .leftsign {
+        width: 100%;
+        text-align: center;
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+
+
+    }
+
+    .page1sign .rightsign {
+        text-align: center;
+    }
+
+    .page1sign .leftsign .textsign {
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+}
+
+.page1sign .leftsign h1,
+.page1sign .rightsign h1 {
+    margin-bottom: 30px;
+}
+
+.page1sign .leftsign form {
+    margin-bottom: 30px;
+}
+
+.page1sign .leftsign form input {
+    display: block;
+    width: 300px;
+    height: 50px;
+    padding-left: 20px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.page1sign .leftsign form input:focus {
+    outline: none;
+}
+
+.page1sign .leftsign>a {
+        z-index: 5;
+        color: white;
+        padding: 10px 30px;
+     
+      
+    border-radius: 10px;
+        position: relative;
+    
+        transition: .5s;
+    
+        background-image: linear-gradient(to right , rgba(255, 34, 34, 0.427), rgba(255, 37, 37, 0.73), rgba(255, 40, 40, 0.427));
+    
+        background-size: 400%;
+        animation: bg linear infinite 10s ;
+        transition: .5s;
+    }
+    .header a:hover{
+       
+     
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.913) inset,0 0 40px rgba(255, 0, 0, 0.913) ,  0 0 40px rgba(0, 0, 0, 0.648) inset, 0 0 40px rgba(255, 0, 0, 0.913)inset ;
+    
+    }
+
+
+.page1sign .leftsign .textsign {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.page1sign .leftsign .textsign h5 {
+    margin-right: 10px;
+}
+
+.page1sign .leftsign .textsign a {
+    color: red;
+}
+
+.page1sign .rightsign {
+    margin-bottom: 100px;
+}
+
+.page1sign .rightsign .box {
+    padding: 10px 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.page1sign .rightsign .box1 {
+    background-color: rgb(0, 0, 200);
+}
+
+.page1sign .rightsign .box2 {
+    background-color: rgb(212, 7, 7);
+}
+
+.page1sign .rightsign .box3 {
+
+    background-color: white;
+    color: black;
+}

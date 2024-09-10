@@ -1,0 +1,237 @@
+.pagedetail {
+    padding-top: 50px;
+
+}
+
+.pagedetail .container {
+    display: flex;
+}
+
+.pagedetail .container a {
+    margin-right: 10px;
+    color: white;
+}
+
+.pagedetail .container a:hover {
+    color: red;
+}
+
+.pagedetail .container span {
+    color: white;
+    margin-right: 10px;
+}
+
+.page1detail {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.page1detail .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .page1detail .container {
+        flex-wrap: wrap;
+    }
+
+    .page1detail .imgdetail img {
+        width: 100%;
+        height: 555px;
+    }
+
+}
+
+.page1detail .imgdetail {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.page1detail .imgdetail img {
+
+    height: 555px;
+}
+
+.page1detail .textdetail h1 {
+    margin-bottom: 20px;
+}
+
+.page1detail .textdetail p {
+    margin-bottom: 20px;
+}
+
+.page1detail .listdetails {
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+
+.page1detail .listdetails ul:first-child {
+    margin-right: 80px;
+}
+
+.page1detail .listdetails ul li {
+    margin-bottom: 15px;
+}
+
+.page1detail .listdetails ul span:first-child {
+    margin-right: 30px;
+    color: gray;
+}
+
+.page1detail .buttondetail {
+    margin-bottom: 20px;
+}
+
+.page1detail .buttondetail a {
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(213, 36, 36);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.page1detail .buttondetail a:hover {
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.page1detail .buttondetail a:first-child {
+    margin-right: 20px;
+}
+
+
+.page2detail {
+    padding-bottom: 100px;
+
+}
+
+.page2detail .container {
+    display: flex;
+    gap: 70px;
+
+}
+
+.page2detail .leftdetail {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.page2detail .leftdetail .box {
+    color: white;
+
+
+}
+
+.page2detail .leftdetail .boxdetail {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.page2detail .leftdetail .boxdetail .text22detail {
+    background-color: gray;
+    padding: 15px 20px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.page2detail .leftdetail .boxdetail .text22detail .pdetail {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.page2detail .leftdetail .boxdetail .text22detail::before {
+    position: absolute;
+    content: "";
+    left: -19px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border: 10px solid gray;
+    border-color: transparent gray transparent transparent;
+}
+
+.page2detail .leftdetail .boxdetail .text22detail span {
+    margin-left: 5px;
+    color: black;
+    font-size: 13.5px;
+}
+
+.page2detail .leftdetail .boxdetail .detail2img img {
+    border-radius: 100%;
+}
+
+.page2detail .comment {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page2detail .comment textarea {
+    margin-bottom: 20px;
+    height: 100px;
+    padding: 20px;
+}
+
+.page2detail .comment textarea:focus {
+    outline: inset 5px;
+    outline-color: red;
+}
+
+.page2detail .comment a {
+    margin-bottom: 20px;
+    color: white;
+    padding: 5px 20px;
+
+    display: block;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+
+
+
+
+
+    position: relative;
+
+    transition: .5s;
+
+    background-image: linear-gradient(to right, rgba(255, 34, 34, 0.427), rgba(255, 37, 37, 0.73), rgba(255, 40, 40, 0.427));
+
+    background-size: 400%;
+    animation: bg linear infinite 10s;
+    transition: .5s;
+}
+
+.header a:hover {
+
+
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.913) inset, 0 0 40px rgba(255, 0, 0, 0.913), 0 0 40px rgba(0, 0, 0, 0.648) inset, 0 0 40px rgba(255, 0, 0, 0.913)inset;
+}
+
+@media (max-width:767px) {
+    .page2detail .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .page2detail .right img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
