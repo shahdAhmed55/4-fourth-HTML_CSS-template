@@ -24,7 +24,7 @@
 
 .page1blog .imgblog .smallimg {
     margin-bottom: 10px;
-
+width: 100%;
 }
 
 .page1blog .imgblog .smallimg img {
@@ -62,7 +62,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .page1blog .container {
         width: 100%;
         display: flex;
@@ -72,14 +72,14 @@
     }
 
     .page1blog .imgblog .bigimg img {
-        width: 320px;
+        width: 100%;
     }
 
     .page1blog .imgblog .smallimg {
         display: flex;
+        width: 100%;
     }
 
-    .page1blog .imgblog .smallimg img {
-        width: 155px;
-    }
+  
 }
+
