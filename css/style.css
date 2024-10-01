@@ -425,12 +425,13 @@ animation-range:250px 500px;
     color: white;
 
 
-
+    width: 100%;
 
 }
 
 .page1 .left .image img {
-
+    
+width: 100%;
     margin-bottom: 25px;
     border-radius: 5px;
 
@@ -467,8 +468,8 @@ animation-range:250px 500px;
     }
 
     .page1 .left .box .image img {
-        height: 550px;
-        width: 100%;
+       width: 100%;
+        object-fit: cover;
 
     }
 

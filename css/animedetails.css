@@ -47,7 +47,7 @@
 }
 
 .page1detail .imgdetail {
-
+    width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -231,7 +231,7 @@
     }
 
     .page2detail .right img {
-        width: 100%;
+
         margin-bottom: 15px;
     }
 }
