@@ -70,14 +70,18 @@ width: 100%;
         justify-content: center;
         align-items: center;
     }
-
     .page1blog .imgblog .bigimg img {
         width: 100%;
     }
-
+    .page1blog .imgblog{
+        width: 100%;
+    }
     .page1blog .imgblog .smallimg {
         display: flex;
         width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
   
